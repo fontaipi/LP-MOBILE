@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/home_layout">
+
+    <TextView
+        android:id="@+id/text_preps_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Preps time"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/minus_preps_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-">
+        </Button>
+        <TextView
+            android:id="@+id/preps_time"
+            android:text="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+        </TextView>
+        <Button
+            android:id="@+id/plus_preps_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+">
+        </Button>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_nb_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Nb sets"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/minus_nb_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-">
+        </Button>
+        <TextView
+            android:id="@+id/nb_set"
+            android:text="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+        </TextView>
+        <Button
+            android:id="@+id/plus_nb_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+">
+        </Button>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_nb_serie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Nb cycle"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/minus_nb_serie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-">
+        </Button>
+        <TextView
+            android:id="@+id/nb_serie"
+            android:text="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+        </TextView>
+        <Button
+            android:id="@+id/plus_nb_serie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+">
+        </Button>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Work interval"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center">
+    <Button
+        android:id="@+id/minus_set_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-">
+    </Button>
+    <TextView
+        android:id="@+id/set_time"
+        android:text="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+    </TextView>
+    <Button
+        android:id="@+id/plus_set_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+">
+    </Button>
+
+</LinearLayout>
+    <TextView
+        android:id="@+id/text_rest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Rest interval"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/minus_rest_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-">
+        </Button>
+        <TextView
+            android:id="@+id/rest_time"
+            android:text="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+        </TextView>
+        <Button
+            android:id="@+id/plus_rest_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+">
+        </Button>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/text_long_rest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Long rest time"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/minus_long_rest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-">
+        </Button>
+        <TextView
+            android:id="@+id/long_rest_time"
+            android:text="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+        </TextView>
+        <Button
+            android:id="@+id/plus_long_rest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+">
+        </Button>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/save_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_gravity="center_horizontal">
+    </Button>
+    <Button
+        android:id="@+id/drop_table"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drop"
+        android:layout_gravity="center_horizontal">
+    </Button>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:id="@+id/layout_db">
+
+    </LinearLayout>
+
+</LinearLayout>

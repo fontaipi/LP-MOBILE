@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightyellow">
+
+    <TextView
+        android:id="@+id/timer_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="45sp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-black"></TextView>
+
+    <ProgressBar
+        android:id="@+id/progress_timer"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="270dp"
+        android:layout_height="270dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/drawable_circle_dark"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="100"
+        android:progressDrawable="@drawable/drawable_circle"
+        android:rotation="-90" />
+
+
+    <TextView
+        android:id="@+id/text_chrono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="00:01:00"
+        android:textColor="@color/orangered"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:id="@+id/on_click_reset"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/text_chrono"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/icon_reset" />
+
+    <ImageView
+        android:id="@+id/on_click_start"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/progress_timer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/icon_start" />
+    <ImageView
+        android:id="@+id/on_click_pause"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/progress_timer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/icon_stop"
+        android:visibility="gone"/>
+
+</RelativeLayout>
